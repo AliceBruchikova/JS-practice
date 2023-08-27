@@ -1,0 +1,68 @@
+.dataForm {
+    margin: 20px auto;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(113, 228, 90);
+}
+.personForm {
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+input {
+    margin: 10px;
+}
+.submitBtn {
+    margin: 10px auto;
+    padding: 5px;
+}
+.dataTable {
+    width: 20%;
+    position: relative;
+    left: 40%;
+}
+.itemTable {
+    border: 2px solid green;
+    margin-top: 10px;
+}
+.text_title {
+    padding: 5px 0 0 10px;
+}
+.text_description {
+    padding: 5px 0 0 10px;
+}
+.btns {
+    display: flex;
+    flex-direction: row;
+}
+.deleteBtn {
+    display: block;
+    width: 50px;
+    margin: 10px;
+    padding: 2px;
+}
+.editBtn {
+    display: block;
+    width: 50px;
+    margin: 10px;
+    padding: 2px;
+}
+
+.modalWindow {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin: 20px auto;
+    width: 20%;
+    display: none;
+    flex-direction: column;
+    border: 2px solid rgb(9, 14, 43);
+    z-index: 1;
+    background-color: grey;
+}
+.saveBtn {
+    display: block;
+    width: 50px;
+    margin: 10px;
+    padding: 2px;
+}
